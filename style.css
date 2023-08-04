@@ -3,3 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+footer,header,section {padding:5%; border:1px solid}
+
+padded-1{padding: 1rem;}
+
+.intro{
+    text-transform: uppercase;
+    background-color: rgb(245, 207, 207);
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.bg-image {
+    padding-bottom: 50%;
+    background-color: aqua;
+
+}
+
+.bg-image-small {
+    padding-bottom: 32%;
+    background-color: rgb(83, 170, 12);
+
+}
