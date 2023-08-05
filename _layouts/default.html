@@ -11,10 +11,24 @@
 </head>
 
 <body>
-    <header>This is a header
-        <a href="/index.html">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/blog.html">Blog</a>
+    <header class="grid">
+        <div class="col-5">Logooooooooooooo</div>
+        <div class="col-7_sm-0">
+
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <div class="dropdown">
+                <span class="dropdown-title"> Categories</span>
+                <div class="dropdown-content">
+                    <a href="archives/travel">Travel</a>
+                    <a href="archives/bali">Bali</a>
+                    <a href="archives/australia">Australia</a>
+                    <a href="archives/self-care">Self Care</a>
+
+                </div>
+            </div>
+            <a href="/blog.html">Blog</a>
+        </div>
     </header>
     {{content}}
     <footer>This is a footer </footer>
